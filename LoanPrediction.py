@@ -3,6 +3,10 @@ import pandas as pd
 import  streamlit as st
 import joblib
 
+import zipfile
+with zipfile.ZipFile('LoanPrediction.py','r') as zip_ref:
+                     zip_ref.extractall()
+
 
 finall_pipe=joblib.load('LoanPrediction_Model.pkl')
 
