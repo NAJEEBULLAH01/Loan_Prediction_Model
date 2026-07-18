@@ -2,8 +2,7 @@ import numpy as np
 import pandas as pd
 import  streamlit as st
 import joblib
-import os
-import gdown
+
 
 finall_pipe=joblib.load('LoanPrediction_Model.pkl')
 
