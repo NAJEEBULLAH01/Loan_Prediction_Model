@@ -4,7 +4,7 @@ import  streamlit as st
 import joblib
 
 import zipfile
-with zipfile.ZipFile('LoanPrediction.py','r') as zip_ref:
+with zipfile.ZipFile('LoanPrediction_Model.zip','r') as zip_ref:
                      zip_ref.extractall()
 
 
